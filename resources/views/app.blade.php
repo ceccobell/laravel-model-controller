@@ -7,6 +7,8 @@
     <title>model controller</title>
 </head>
 <body>
-    <h1>ciao</h1>
+    @foreach ($movies as $movie)
+        <div>{{ $movie }}</div>
+    @endforeach
 </body>
 </html>
